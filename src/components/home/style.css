@@ -1,0 +1,120 @@
+.aboutMe{
+    width: 100%;
+    padding-top: 1.5rem;
+    padding-bottom: 3rem;
+    display: flex;
+    justify-content: space-around;
+}
+.intro__greetting{
+    font-family: 'Josefin Sans';
+    font-size: 2em;
+    color: rgba(115, 255, 243, 0.80);
+}
+.intro__name{
+    font-family: 'Josefin Sans';
+    font-size: 6em;
+    font-weight: bold;
+    padding-bottom: 0.5em;
+}
+.intro__brief{
+    font-family: 'Inconsolata', monospace;
+    font-size: 1.5em;
+}
+.intro__btns{
+    padding-top: 3em;
+}
+.aboutMe__right{
+    width: 46%;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 15px;
+}
+.aboutMe__left{
+    width: 46%;
+} 
+.aboutMe__intro, .aboutMe__skill, .aboutMe__contact,.aboutMe__context{
+    padding: 1.5em 0 3em;
+}
+.aboutMe__intro p{
+    width: 80%;
+    padding: 1em 0;
+    text-align: center;
+    margin: auto;
+}
+.aboutMe__selfie{
+    padding-top: 5%;
+    width: 90%;
+    height: auto;
+    margin: auto;
+}
+.aboutMe__right h1{
+    font-size: 34pt;
+    padding-bottom: 0.5em;
+    font-family: 'Crimson Text', serif;
+}
+.aboutMe__right h2{
+    font-family: 'Crimson Text', serif;
+    line-height: 2em;
+}
+.aboutMe__right h3 h4 p{
+    font-family: 'Varela Round', sans-serif;
+    margin: auto;
+}
+.aboutMe__skill hr{
+    width: 60%;
+    padding: 10px 0;
+    margin: auto;
+    text-align: center;
+    border:none;
+    border-bottom: 1px solid;
+}
+.aboutMe__right h4{
+    text-align: center;
+}
+.aboutMe__context{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+.aboutMe__context p{
+    text-align: left;
+    padding: 2em 0;
+    line-height: 2.5;
+    font-size: 1.15em;
+}
+.skill--card{
+    width: 70%;
+    text-align: left;
+    margin: auto;
+}
+.contact__info{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-items: center;
+    margin:auto;
+}
+.contact__info div{
+    display: flex;
+    align-items: center;
+    padding-top: 3em;
+}
+.contact__info h3{
+    padding-left: 5px;
+}
+
+
+@media only screen and (max-width: 750px) {
+    .aboutMe { 
+      display: contents;
+   }
+   .aboutMe__right{
+        width: 100%;
+    }
+    .aboutMe__left{
+        width: 100%;
+    } 
+    .aboutMe__selfie{
+        padding: 5% 0;
+    }
+  }

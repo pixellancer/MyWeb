@@ -1,0 +1,21 @@
+.App{
+  text-align: center;
+  height: 100vh;
+  color: white;
+  background-image: url("./bgimages/10.4-tempeLake-7629.jpg");
+  background-position: center;
+  background-origin: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  overflow:auto; 
+}
+
+@media only screen and (max-width: 750px) {
+  .App { 
+    background: none;
+    width: inherit;
+    background: url("./bgimages/myWeb1024-10.jpg") no-repeat center center;
+    background-size: cover;
+ }
+}

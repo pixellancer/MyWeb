@@ -1,0 +1,42 @@
+.works{
+    display: flex;
+    flex-wrap: wrap;
+}
+.works__card{
+    width: 46%;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 15px;
+    margin: 2em auto;
+}
+
+.card--header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5em 2em;
+}
+
+.works h1 h2 h3{
+    font-family: 'Crimson Text', serif;
+}
+span{
+    font-size: 12pt;
+    font-family: 'Crimson Text', serif;
+}
+
+.works ul{
+    width: 84%;
+    padding-bottom: 3em;
+    margin: auto
+}
+.works li{
+    padding-top: 10px;
+    font-family: 'Varela Round', sans-serif;
+    text-align: left;
+}
+
+@media only screen and (max-width: 850px) {
+    .works__card{
+        width: 88%;
+    }
+}
