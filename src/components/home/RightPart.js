@@ -52,9 +52,9 @@ const Skills = () => {
         <h2>
           {" "}
           Deployment {" & "}
-          Intergration:{" "}
+          SDLC management:{" "}
         </h2>{" "}
-        <h4> Git, SVN, Jira, Docker </h4>{" "}
+        <h4> Git, SVN, Jira </h4>{" "}
       </article>{" "}
       <hr />
       <article className="skill--card">
